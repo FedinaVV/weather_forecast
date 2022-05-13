@@ -1,0 +1,15 @@
+.currentWeather-main__forecast {padding: 80px 0 0 0;text-align: center;}
+.currentTemp {font-size: 50px}
+.currentWeather-main__dateTimeWeek{margin: 0 0 20px 0;}
+.currentWeather-main__wrapperPressureHumidity {display: flex;justify-content: center;margin: 0 0 20px 0;}
+.currentWeather-main__pressure {margin: 0 20px 0 0}
+.currentWeather-main__wrapperWind {display: flex;justify-content: center;}
+.currentWeather-main__wind-speed {margin: 0 20px 0 0}
+
+@media screen and (max-width: 479.98px) {
+  .currentWeather-main__forecast {padding: 50px 0 0 0;}
+  .currentWeather-main__wrapperPressureHumidity {flex-direction: column}
+  .currentWeather-main__pressure {margin: 0 0 20px 0;}
+  .currentWeather-main__wrapperWind {flex-direction: column}
+  .currentWeather-main__wind-speed {margin: 0 0 20px 0;}
+}

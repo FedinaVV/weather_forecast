@@ -1,0 +1,26 @@
+.block-weatherForecast {
+  padding: 80px 0 20px 0;
+  text-align: center
+}
+
+.block-weatherForecast__wrapperDays {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.block-weatherForecast__arrayDays {
+  margin: 10px 5px;
+  background-color: #bfcee1;
+  padding: 20px 5px;
+  border-radius: 5px;
+}
+
+.wrapperDays-day:not(:last-child) {
+  margin-bottom: 10px
+}
+
+.block-weatherForecast__header {
+  margin-bottom: 30px
+}

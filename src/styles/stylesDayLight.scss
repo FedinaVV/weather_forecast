@@ -1,0 +1,16 @@
+.wrapperDayLight {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #fffb7c;
+  margin: 40px auto;
+  width: 400px
+}
+
+.wrapperDayLight__header {
+  margin: 10px
+}
+
+.wrapperDayLight__timeDayLight {
+  margin: 10px 5px
+}

@@ -1,0 +1,51 @@
+.registrationForm-main {
+  padding: 150px 0 0 0
+}
+
+.registrationForm-main__heading {
+  font-size: 30px;
+  text-align: center;
+  margin: 0 0 30px 0
+}
+
+.registrationForm-main__regForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.registrationForm-main__label {
+  margin: 0 0 10px 0
+}
+
+.registrationForm-main__input {
+  margin: 0 0 30px 0;
+  padding: 15px
+}
+
+.registrationForm-main__btnSubmit {
+  @extend %btnBlue;
+  margin: 0 auto 20px;
+  width: 40%;
+}
+
+.registrationForm-main__btnSubmit:hover {
+  color: #123ada;
+  background-color: #ffffff
+}
+
+.authLink {
+  color: #1747ca;
+  font-weight: 600
+}
+
+.authLink:hover {
+  text-decoration: underline
+}
+
+@media screen and (max-width: 767.98px) {
+  .registrationForm-main__regForm {
+    max-width: 80%
+  }
+}

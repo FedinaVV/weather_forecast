@@ -1,0 +1,21 @@
+@import "src/styles/variables";
+@import "src/styles/templates";
+@import "src/styles/nullingStyles";
+@import "src/styles/stylesHeaderWeather";
+@import "src/styles/stylesGeolocationCity";
+@import "src/styles/stylesCurrentWeather";
+@import "src/styles/stylesWeatherForecast";
+@import "src/styles/stylesDayLight";
+@import "src/styles/stylesRegistrationForm";
+@import "src/styles/stylesAuthorizationForm";
+@import "stylesFavoriteCities";
+@import "stylesListCities";
+@import "stylesWeatherCity";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600&family=Poppins:wght@400;500;600;700&display=swap');
+
+body {height: 100%;line-height: 1;font-size: 16px;color: #1747ca;font-family: 'Poppins', sans-serif;font-weight: 500;background-color: $main-color}
+[class*="__container"] {max-width: 1110px;margin: 0 auto;box-sizing: content-box;padding: 0 15px;}
+.wrapper {min-height: 100%;overflow: hidden;display: flex;flex-direction: column;}
+.main {flex: 1 1 auto;}

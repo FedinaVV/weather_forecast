@@ -1,0 +1,52 @@
+.authorizationForm-main {
+  padding: 150px 0 0 0
+}
+
+.authorizationForm-main__heading {
+  font-size: 30px;
+  text-align: center;
+  margin: 0 0 30px 0
+}
+
+.authorizationForm-main__login {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.authorizationForm-main__label {
+  margin: 0 0 10px 0
+}
+
+.authorizationForm-main__input {
+  margin: 0 0 30px 0;
+  padding: 15px
+}
+
+.authorizationForm-main__btnSubmit {
+  @extend  %btnBlue;
+  margin: 0 auto 20px;
+  width: 25%;
+
+}
+
+.authorizationForm-main__btnSubmit:hover {
+  color: #123ada;
+  background-color: #ffffff
+}
+
+.regLink {
+  color: #1747ca;
+  font-weight: 600
+}
+
+.regLink:hover {
+  text-decoration: underline
+}
+
+@media screen and (max-width: 767.98px) {
+  .authorizationForm-main__login {
+    max-width: 80%
+  }
+}

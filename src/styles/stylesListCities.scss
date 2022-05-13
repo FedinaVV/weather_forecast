@@ -1,0 +1,41 @@
+.listCities-main__block-cities {
+  padding: 130px 0 0 0;
+}
+
+.block-cities__heading {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.block-cities__cities {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block-cities__city {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block-cities__city-btnAdd {
+  @extend %btnBlue;
+  margin: 15px 15px;
+}
+
+.block-cities__city-btnAdd:hover {
+  color: #123ada;
+  background-color: #ffffff
+}
+
+.block-cities__city-btnDel {
+  @extend %btnBlue;
+  margin: 15px 15px;
+}
+.block-cities__city-btnDel:hover{
+  color: #123ada;
+  background-color: #ffffff
+}

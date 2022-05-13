@@ -1,0 +1,21 @@
+.main__weatherCity{
+  padding: 150px 0 0 0;
+}
+.weatherCity-header{
+  text-align: center;
+}
+.wrapper-btnAddFav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 50px 0 0 0
+}
+.btnAddFav {
+  @extend %btnBlue;
+  width: 20%;
+}
+.btnAddFav:hover {
+  color: #123ada;
+  background-color: #ffffff
+}
